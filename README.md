@@ -11,7 +11,7 @@ I am taking time after this submission to learn how to implement Redux for React
 
 The webpack scripts included under create-react-app have been used instead of a custom config - to the best of my knowledge create-react-app's webpack config is highly optimised.
 
-Re: Axios - I am familiar with using Axios (and appreciate its enhanced promise handling, like easse of cancelling promises etc). For some reason, importing the npm package killed emmet in VSCode which was slowing me down significantly. So instead I have used the fetch API.
+Re: Axios - I am familiar with using Axios (and appreciate its enhanced promise handling, for example cancelling promises). For some reason, importing the npm package killed emmet in VSCode which was slowing me down significantly. So instead I have used the fetch API.
 
 Thank you for your consideration! 
 
