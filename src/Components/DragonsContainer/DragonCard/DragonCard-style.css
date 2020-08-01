@@ -2,10 +2,10 @@
    height: 10vh;;
    width: 25vw;
    border-radius: 10px;
-   background-color: rgba(17, 31, 56, 0.85);
+   background-color: rgba(23, 42, 75, 0.5);
    background:rrgb(2,71,119);
-   margin-left: 50%;
-   transform: translate(-50%);
+   margin-left: 10%;
+   /* transform: translate(-50%); */
    color: rgb(172, 172, 172);
    box-shadow: 1px 1px 5px rgb(10, 10, 10);;
    padding-bottom: 2%;
