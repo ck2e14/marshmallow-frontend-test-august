@@ -1,0 +1,84 @@
+.rocket-card-wrapper {
+   direction: ltr !important;
+   color: rgb(200, 200, 200);
+   z-index: 9;
+   width: 52vw;
+   border: 2px solid rgba(61, 61, 61, 0.);
+   margin: 2%;
+   background:rgba(12, 22, 37, 0.95);
+   box-shadow: 1px 1px 5px rgb(10, 10, 10);;
+   border-radius: 10px;
+   padding: 2%;
+   transition: all .4s;
+   animation: fade-in .4s;
+   height: 10vh;
+   cursor: default;
+   margin-bottom: 0vh;
+}
+
+.name {
+   font-size: 4vh;
+   margin-top: 2%;
+   margin-bottom: 2%;;
+   position: relative;
+   font-weight: bold;
+   text-align: center;
+   color: rgb(255, 255, 255);
+   transition: all .3s;
+}
+
+.rocket-card-wrapper:hover > .name {
+   color: rgb(0, 255, 234);
+}
+
+.about-rocket span {
+   color: rgb(59, 59, 59);
+   font-size: 1.5vw    ;
+   color: rgb(21, 187, 173);
+}
+
+.rocket-card-wrapper:hover {
+   background-color: rgba(10, 15, 22, 0.95);
+   height: 47vh;
+   border-color: rgba(0, 0, 0, 0);
+}
+
+.about-rocket-contents {
+   margin-top: -1%;
+}
+
+.rocket-info-pane {
+   opacity: 0;
+   margin-top: -2%;
+   top:50%;
+   position: relative;
+   transform: translateY(-70%);
+   display: none;
+   transition: all .25s ease-in-out;
+   animation: fade-in .2s ease-in-out both;
+   animation-delay: .15s;
+   text-align: left;
+   padding-left: 2%;
+   color: rgb(255, 255, 255);   
+
+}
+
+.rocket-card-wrapper:hover > .rocket-info-pane {
+   display: block;
+   opacity: 1;
+}
+
+.quickfire-rocket-details {
+   font-size: .75vw;;
+   margin-top: 0%;;
+}
+
+/* ANIMATIONS */
+@keyframes fade-in {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}

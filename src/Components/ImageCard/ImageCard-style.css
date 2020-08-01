@@ -1,0 +1,25 @@
+.img-card-wrapper {
+   max-height: 20vh;
+
+   max-width: 20vw;;
+}
+
+.dragon-image {
+   max-height: 23vh;
+   width: 23vw;;
+   border-radius: 10px;
+   animation: fade-in 1s;
+   min-height: 20vh;;
+
+
+}
+
+/* ANIMS */
+@keyframes fade-in {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}

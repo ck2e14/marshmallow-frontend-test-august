@@ -1,0 +1,62 @@
+.rockets {
+   position: relative;
+   top: 10%;
+   overflow-y: hidden;
+   height: 90vh;
+   width: 57vw;
+   font-size: 1vw;
+   justify-content: space-evenly;
+   width: 100vw;
+}
+
+.rockets-title {
+   position: fixed;
+   top: 0;
+   font-size: 6vh;
+   color: rgb(146, 146, 146);
+   margin-left: 10vw;
+}
+
+.rocket-cards-wrapper {
+   overflow-y: scroll;
+   height: 70vh;
+   width: 57vw;
+   margin-left: 0%;
+   direction: rtl;
+}
+
+.quickfire-rocket-details {
+   margin-top: -2%;
+}
+
+.quickfire-rocket-details span {
+   margin-left: 5%;
+   transform: translateX(-50%) !important;
+   color: rgb(150, 150, 150) !important;
+   font-size:1.5vh !important;
+}
+
+/* Scroll-bar CSS for cards container */
+.rocket-cards-wrapper::-webkit-scrollbar {
+   width: 10px;
+   border-radius: 10px;
+}
+
+.rocket-cards-wrapper::-webkit-scrollbar-track {
+   background: #2d3b4b;
+   border-radius: 10px;
+
+}
+
+.rocket-cards-wrapper::-webkit-scrollbar-thumb {
+   background: rgb(0, 0, 0);
+   border-radius: 10px;
+
+}
+
+.rocket-cards-wrapper::-webkit-scrollbar-thumb:hover {
+   background: #555;
+   border-radius: 10px;
+
+}
+

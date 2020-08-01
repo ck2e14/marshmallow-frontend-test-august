@@ -1,0 +1,21 @@
+.title {
+   font-size: 6vh;
+   color: rgb(146, 146, 146);
+   margin-left: 10vw;
+   position: fixed;
+   top: 0;
+}
+
+.dragons {
+   position: fixed;
+   top: 12%;
+   width: 55vw;
+   height: 60vh;
+   position: fixed;
+}
+
+.youtube-link{
+   position: fixed !important;
+   bottom: 0% !important;
+}
+
