@@ -2,8 +2,8 @@
    height: 10vh;;
    width: 25vw;
    border-radius: 10px;
-   background-color: rgb(17,24,36);
-   background:rgba(12, 22, 37, 0.95);
+   background-color: rgba(17, 31, 56, 0.85);
+   background:rrgb(2,71,119);
    margin-left: 50%;
    transform: translate(-50%);
    color: rgb(172, 172, 172);
@@ -14,7 +14,6 @@
    animation: fade-in .5s;
    overflow: hidden;
    margin-bottom: 5vh;
-
 }
 
 .dragon-card-wrapper:hover {

@@ -2,6 +2,7 @@ import React from 'react';
 import './DragonCard-style.css';
 
 const DragonCard = props => {
+   if(!props.dragon) return null  
 
    const {name, active, orbit_duration_yr, first_flight, description, wikipedia, dry_mass_kg, heat_shield, crew_capacity, flickr_images } = props.dragon
 
@@ -11,7 +12,7 @@ const DragonCard = props => {
    const heightMeters = props.dragon.height_w_trunk.meters
    const diameterMeters = props.dragon.diameter.meters
 
-   if(!props) return null
+
 
    return(
       <div className="dragon-card-wrapper" onMouseEnter={() => props.showImages(flickr_images)}>

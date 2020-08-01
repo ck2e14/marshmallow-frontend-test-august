@@ -35,6 +35,8 @@ const DragonsContainer = () => {
       })
    }
 
+   if(dragons.length < 1) return null
+
    return (
       <>
       <a href="https://www.youtube.com/watch?v=xllfBA0bIZs" target="_blank" rel="noopener noreferrer" className="wikipedia-link youtube-link">Live-stream scheduled for Crew Dragon's return home! 2/08/20</a>
