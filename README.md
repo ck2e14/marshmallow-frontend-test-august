@@ -7,7 +7,7 @@ If you would like to run it locally:
 -> Clone the repo
 -> run $ npm install followed by $ npm start 
 
-I am taking time after this submission to learn how to implement Redux for React via a Udemy course. 
+I am taking time after this submission to learn how to implement Redux for React via a Udemy course, as well as expand my knowledge of testing.  
 
 The webpack scripts included under create-react-app have been used instead of a custom config - to the best of my knowledge create-react-app's webpack config is highly optimised.
 
