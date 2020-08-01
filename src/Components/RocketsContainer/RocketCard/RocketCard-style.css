@@ -4,16 +4,13 @@
    z-index: 9;
    width: 52vw;
    border: 2px solid rgba(61, 61, 61, 0.);
-   margin: 2%;
-   background-color: rgba(17, 31, 56, 0.4);
-   box-shadow: 1px 1px 5px rgb(10, 10, 10);;
-   border-radius: 10px;
+   margin: 0%;
    padding: 2%;
    transition: all .4s;
    animation: fade-in .4s;
    height: 10vh;
    cursor: default;
-   margin-bottom: 0vh;
+   margin-bottom: 0vh;;
 }
 
 .name {
