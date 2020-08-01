@@ -21,6 +21,7 @@ const fetchRockets = () => {
    return fetch(`${BASE_URL}${ROCKETS_ENDPOINT}`)
       .then(jsonify)
       .then(data => { return data } )
+      .catch(error => { console.log(error)})
 }
 
 export default {
