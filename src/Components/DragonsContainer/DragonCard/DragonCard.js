@@ -26,7 +26,7 @@ const DragonCard = props => {
                   <span>About {name} </span><br/>
 
                   <div className="about-dragon-contents">
-                        {description}<br/><br/> It weighs in at {dry_mass_kg}KG, and is capable of carrying a stunning {outBoundPayloadInKg}KG to the ISS, and {returnPayloadInKg}KG on its return to Earth. {crew_capacity > 0 ? `${name} can support ${crew_capacity} crew members.` : null }
+                        {description}<br/> It weighs in at {dry_mass_kg}KG, and is capable of carrying a stunning {outBoundPayloadInKg}KG to the ISS, and {returnPayloadInKg}KG on its return to Earth. {crew_capacity > 0 ? `${name} can support ${crew_capacity} crew members.` : null }
                   </div>
 
                </div>

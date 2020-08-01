@@ -19,7 +19,7 @@
 .dragon-card-wrapper:hover {
    overflow: hidden;
    background-color: rgba(10, 15, 22, 0.95);
-   height: 50vh;
+   height: 54vh;
    width: 55vw;
 }
 
@@ -34,13 +34,11 @@
 
 .dragon-card-wrapper:hover > .name {
    color: rgb(21, 187, 173);
-
 }
 
 .info-pane {
    opacity: 0;
    margin-top: 2%;
-   line-height: 1.5vh;
    display: none;
    transition: all .25s ease-in-out;
    animation: fade-in .2s ease-in-out both;
@@ -81,6 +79,7 @@
 
 .quickfire-dragon-details, .about-dragon-contents {
    margin-top: 1%;
+   line-height: 2.5vh;
 }
 
 .quickfire-dragon-details span {
