@@ -4,28 +4,33 @@
    z-index: 9;
    width: 52vw;
    border: 2px solid rgba(61, 61, 61, 0.);
-   margin: 0%;
+   margin: 2%;
+   background-color: rgb(18,27,44);
+   box-shadow: 1px 1px 5px rgb(10, 10, 10);;
+   border-radius: 10px;
    padding: 2%;
    transition: all .4s;
    animation: fade-in .4s;
-   height: 10vh;
+   height: 9vh;
    cursor: default;
-   margin-bottom: 0vh;;
+   margin-bottom: 0vh;
+;
 }
 
 .name {
-   font-size: 4vh;
-   margin-top: 2%;
+   font-size: 5vh;
+   /* margin-top: 2%; */
    margin-bottom: 2%;;
    position: relative;
    font-weight: bold;
    text-align: center;
-   color: rgb(161, 161, 161);
+   color: rgb(149, 149, 149);
    transition: all .3s;
 }
 
 .rocket-card-wrapper:hover > .name {
    color: rgb(0, 255, 234);
+   font-size: 4vh;;
 }
 
 .about-rocket span {
