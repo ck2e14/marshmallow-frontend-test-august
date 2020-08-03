@@ -34,7 +34,7 @@ const DragonCard = props => {
    
                { active ? 
                   <div className="active">
-                     <span className="active-span">{name} is currently active and has been in orbit for {orbit_duration_yr} years! It first launched on {first_flight}.</span> 
+                     <span className="active-span">{name} is currently active and can remain in orbit for {orbit_duration_yr} years! It first launched on {first_flight}.</span> 
                   </div> 
                : 
                   <div className="active">{name} is not currently active.</div> 
