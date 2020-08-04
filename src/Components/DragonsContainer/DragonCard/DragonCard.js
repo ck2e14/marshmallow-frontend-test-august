@@ -15,8 +15,6 @@ const DragonCard = props => {
    const fuel_1 = startCase(thrusters.fuel_1)
    const fuel_2 = startCase(thrusters.fuel_2)
 
-// TODO: IMPORT CAPITALISATION FROM LODASH AND USE IT FOR THRUSTER FUELS
-
    return(
       <div className="dragon-card-wrapper" onMouseEnter={() => props.showImages(flickr_images)}>
 
