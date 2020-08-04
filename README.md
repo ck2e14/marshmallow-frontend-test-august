@@ -5,7 +5,9 @@ The site is hosted at https://marshmallow-junior-frontend.netlify.app/
 If you would like to run it locally:
 
 -> Clone the repo
--> run $ npm install followed by $ npm start 
+
+-> $ npm install   
+-> $ npm start 
 
 || React Hooks/Unit Tests/ES6/Vanilla CSS ||
 
