@@ -22,11 +22,12 @@ const RocketsContainer = () => {
    const buildImageCards = () => {
       if(!rocketImages || rocketImages.length < 1) return
       let truncatedArray = rocketImages.slice(0, 4)
-      // this is a bit hacky, I know, but it reliably controls the output sizing for the gallery when there are a lot of URLs. It works for now! With a longer time-frame I would make a carousel/use an npm package to sit over the top of every other element to cycle through every img url returned by API.
       return truncatedArray.map(url => {
          return <ImageCard url={url}/>
       })
    }
+      // this is a bit hacky, I know, but it reliably controls the output sizing for the gallery when there are a lot of URLs. It works for now! With a longer time-frame I would make a carousel/use an npm package to sit over the top of every other element to cycle through every img url returned by API.
+
 
    const buildRocketCards = () => {
       if(!rockets || rockets.length === 0) return 

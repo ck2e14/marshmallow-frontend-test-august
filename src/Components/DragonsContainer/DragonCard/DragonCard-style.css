@@ -17,7 +17,7 @@
 .dragon-card-wrapper:hover {
    overflow: hidden;
    background-color: rgba(10, 15, 22, 0.95);
-   height: 54vh;
+   height: 56vh;
    width: 55vw;
 }
 
