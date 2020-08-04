@@ -1,6 +1,6 @@
 import React from 'react';
 import './DragonCard-style.css';
-import {capitalize} from 'lodash'
+import {startCase} from 'lodash'
 
 const DragonCard = props => {
    if(!props.dragon) return null  
@@ -12,8 +12,8 @@ const DragonCard = props => {
    const returnPayloadInKg = props.dragon.return_payload_mass.kg;
    const heightMeters = props.dragon.height_w_trunk.meters
    const diameterMeters = props.dragon.diameter.meters
-   const fuel_1 = capitalize(thrusters.fuel_1)
-   const fuel_2 = capitalize(thrusters.fuel_2)
+   const fuel_1 = startCase(thrusters.fuel_1)
+   const fuel_2 = startCase(thrusters.fuel_2)
 
 // TODO: IMPORT CAPITALISATION FROM LODASH AND USE IT FOR THRUSTER FUELS
 

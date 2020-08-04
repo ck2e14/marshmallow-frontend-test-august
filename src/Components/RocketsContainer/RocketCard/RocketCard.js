@@ -1,5 +1,6 @@
 import React from 'react';
 import './RocketCard-style.css'
+import { startCase } from 'lodash'
 
 const RocketCard = props => {
 
@@ -7,8 +8,7 @@ const RocketCard = props => {
 
    const height_meters = props.rocket.height.meters
    const diameter_meters = props.rocket.diameter.meters
-   const propellants = `${engines.propellant_1}, ${engines.propellant_2}`
-   // const payloadWeights = props.rocket.payload_weights
+   const propellants = `${startCase(engines.propellant_1)}, ${startCase(engines.propellant_2)}`  
    const mass_kg = props.rocket.mass.kg.toLocaleString()
    const localeAdjustedFlightCost = cost_per_launch.toLocaleString()
 
