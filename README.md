@@ -1,4 +1,4 @@
-This is the code repo for my solution to Marshmallow's Junior Front-end Developer Position technical test.
+The code repo for my solution to Marshmallow's Junior Front-end Developer Position technical test.
 
 The site is hosted at https://marshmallow-junior-frontend.netlify.app/
 
